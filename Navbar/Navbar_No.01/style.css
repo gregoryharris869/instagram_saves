@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #767f8a;
+  font-family: "Helvetica Neue", Helvetica;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: 0;
+  outline: none;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+}
+
+/* Navbar */
+
+.navbar {
+  height: 5.5rem;
+  background-color: #1a1a1a;
+  padding: 1.25rem 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo i {
+    color: #0aa5ff;
+    font-size: 1.25rem;
+  }
+
+  & a {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #e9e2e2;
+    margin-left: 1rem;
+  }
+}
+
+/* Menu */
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.menu-links {
+  display: flex;
+  gap: 1.5rem;
+  border-right: 0.2rem solid #999;
+  padding-inline: 1.5rem;
+
+  & a {
+    font-weight: 500;
+    color: #999;
+    padding: 0.5rem 1rem;
+  }
+
+  & a:hover {
+    color: #e9e2e2;
+  }
+}
+
+/* Log In Btn */
+
+.log-in {
+  font-weight: 500;
+  padding: 0.7rem 1.4rem;
+  background-color: transparent;
+  color: #999;
+  border-radius: 0.625rem;
+  border: 0.125rem solid #0aa5ff;
+  transition: 0.2s;
+
+  &:hover {
+    background-color: #0aa5ff;
+    color: #e9e2e2;
+  }
+}
+
+/* Menu-btn */
+
+.menu-btn {
+  font-size: 1.9rem;
+  color: #e9e2e2;
+  display: none;
+  cursor: pointer;
+}
+
+/* @media */
+
+@media (max-width: 53rem) {
+  .menu {
+    display: none;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+}
