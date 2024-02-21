@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  background: #154376;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  text-align: center;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+.text span {
+  background: rgba(255, 255, 255, 0.2);
+  width: 120px;
+  height: 120px;
+  display: block;
+  line-height: 120px;
+  font-weight: bold;
+  color: #fff;
+  font-size: 40px;
+  float: left;
+  transition: 0.5s;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+  text-shadow: 0 0 10px #00e1ff, 0 0 10px #00e1ff, 0 0 10px #00e1ff,
+    0 0 10px #00e1ff, 0 0 10px #00e1ff;
+}
+
+/* Hover Direction */
+
+.text:hover span:nth-child(1) {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.text:hover span:nth-child(1) {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.text:hover span:nth-child(odd) {
+  transform: scaleY(-15deg);
+  box-shadow: 0 60px 20px rgba(0, 0, 0, 0.1);
+}
+
+.text:hover span:nth-child(even) {
+  transform: scaleY(15deg);
+  box-shadow: 0 60px 20px rgba(0, 0, 0, 0.1);
+}
+
+.text:hover {
+  transform: rotateX(35deg);
+}

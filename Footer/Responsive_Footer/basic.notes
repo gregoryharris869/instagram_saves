@@ -1,0 +1,72 @@
+ --Font Awesome cdnjs--
+ 
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+   
+
+-- Google Fonts --
+
+--EB Garamond--
+    Garamond
+    -To look smart or clever.
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+font-family: 'EB Garamond', serif;
+
+--Bodoni Moda-- 
+    Bodoni
+    -Fancy and elegant. 
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap');
+
+font-family: 'Bodoni Moda', serif;
+
+--Abhaya Libre--
+    Century Expanded
+    -Most readable text/ blocks of text.
+
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap');
+
+font-family: 'Abhaya Libre', serif;
+
+--Poppins--
+    Futura
+    -Geometric / Rational / Versatile.
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+font-family: 'Poppins', sans-serif;   
+
+--Work Sans--
+    Helvetica
+    -Versatile.
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+font-family: 'Work Sans', sans-serif;
+
+
+--Roboto--
+    -Versatile
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+font-family: 'Roboto', sans-serif;
+
+--Orbitron--
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+font-family: 'Orbitron', sans-serif;
+
+--Limelight--
+
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+
+font-family: 'Limelight', cursive;
+
+--Box Shadow--
+
+box-shadow: 0 20px 25px -5px rgba(0 0 0 / 0.1),
+    0 10px 10px -5px rgba(0 0 0 / 0.04);

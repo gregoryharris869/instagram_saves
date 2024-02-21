@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", serif;
+  background: #0c1117;
+}
+
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 400px;
+  width: 450px;
+  cursor: pointer;
+}
+
+.card img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  border-radius: .5rem;
+}
+
+.side {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 25%;
+  height: 100%;
+  background: rgb(255, 255, 255);
+  transition: all 0.4s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: .5rem;
+}
+
+.card:hover .side {
+  transform: translateX(105%);
+}
+
+.side i {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.fa-instagram-square {
+  color: #c32aa3;
+}
+
+.fa-facebook-square {
+  color: #1877f2;
+}
+
+.fa-twitter-square {
+  color: #000000;
+}
+
+.fa-youtube-square {
+  color: #ff0100;
+}
+
+.fa-instagram-square:hover {
+  color: #ffa2ff;
+}
+
+.fa-facebook-square:hover {
+  color: #002286;
+}
+
+.fa-twitter-square:hover {
+  color: #b9b9b9;
+}
+
+.fa-youtube-square:hover {
+  color:#7E0000;
+}
+
+.name{
+  top: 5px;
+  font-size: 1.4rem;
+  font-weight: 700;
+}

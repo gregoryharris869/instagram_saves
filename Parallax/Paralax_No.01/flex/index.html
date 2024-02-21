@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+    <title>Parallax Animation Effect</title>
+  </head>
+  <body>
+    <!-- Here we have the standard section element grouping content. -->
+    <section class="showcase">
+      <!-- The container will limit how wide the content inside will stretch to. -->
+      <div class="container">
+        <!-- The wrapper for all the text. This container is what we will animate. -->
+        <div class="showcase-data">
+          <span class="tagline">JavaScript</span>
+          <h1 class="title">Multi layer parallax effect</h1>
+        </div>
+      </div>
+      <!-- The 3 images will be floating with position of absolute relative to the section. We will position them strategically to set up the parallax scene. -->
+      <img src="img/hero-top.png" alt="" class="parallax-img img-top" />
+      <img src="img/hero-middle.png" alt="" class="parallax-img img-middle" />
+      <img src="img/hero-bottom.png" alt="" class="parallax-img img-bottom" />
+    </section>
+    <!-- This test div is not important. It's only used for adding scrolling content so that we can test the effect. -->
+    <div class="test" style="height: 1000vh"></div>
+  </body>
+</html>
